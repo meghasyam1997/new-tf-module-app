@@ -1,4 +1,3 @@
-
 resource "aws_security_group" "allow_all_sg" {
   name        = "${var.name}-${var.env}"
   description = "${var.name}-${var.env}"
