@@ -1,11 +1,4 @@
 variable "instance_type" {}
 variable "name" {}
 variable "env" {}
-variable "desired_capacity" {}
-variable "max_size" {}
-variable "min_size" {}
-variable "vpc_id" {}
-variable "allow_app_cidr" {}
-variable "bastion_cidr" {}
 variable "subnet_ids" {}
-variable "tags" {}
